@@ -5,13 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "sh  ./scripts/dev.sh",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gowtham Ravichander",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.0.1",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
