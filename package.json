@@ -2,11 +2,12 @@
   "name": "blogger_backend",
   "version": "1.0.0",
   "description": "A safe blogger app. Backend Project Repe",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "dev": "sh  ./scripts/dev.sh",
-    "start": "node index.js",
+    "prod": "sh ./scripts/prod.sh",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gowtham Ravichander",

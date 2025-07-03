@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Set environment variable to Development
+# Set environment variable to Production
 if [ "$OS" = "Windows_NT" ]; then
     set NODE_ENV=development
 else
